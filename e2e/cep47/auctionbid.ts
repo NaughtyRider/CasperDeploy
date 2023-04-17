@@ -166,27 +166,27 @@ const test = async () => {
 
 
 
-  // //****************//
-  // //* Bid Section *//
-  // //****************//
-  // console.log('\n*************************\n');
+  //****************//
+  //* Bid Section *//
+  //****************//
+  console.log('\n*************************\n');
 
-  // console.log('... Bidding ... \n');
+  console.log('... Bidding ... \n');
 
-  // const mintDeploy = await cep47.bid(
-  //   "3000000001",
-  //   "uref-576193ce2f20d2742ded6f1334dc293cfd104fc60873a77f3f1a6e8397b4a601-007",//item 11 purse for user-2
-  //   "7000000000",
-  //   KEYS_USER.publicKey,
-  //   [KEYS_USER]
-  // );
+  const mintDeploy = await cep47.bid(
+    "3000000001",
+    "uref-576193ce2f20d2742ded6f1334dc293cfd104fc60873a77f3f1a6e8397b4a601-007",//item 11 purse for user-2
+    "7000000000",
+    KEYS_USER.publicKey,
+    [KEYS_USER]
+  );
 
-  // const mintDeployHash = await mintDeploy.send(NODE_ADDRESS!);
+  const mintDeployHash = await mintDeploy.send(NODE_ADDRESS!);
 
-  // console.log("...... Bid deploy hash: ", mintDeployHash);
+  console.log("...... Bid deploy hash: ", mintDeployHash);
 
-  // await getDeploy(NODE_ADDRESS!, mintDeployHash);
-  // console.log("...... Bid successfully placed");
+  await getDeploy(NODE_ADDRESS!, mintDeployHash);
+  console.log("...... Bid successfully placed");
 
 
 
