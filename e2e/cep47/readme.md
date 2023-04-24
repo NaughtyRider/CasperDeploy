@@ -7,3 +7,7 @@ Parameter you need to provide
 - Bid : Amount you need to bid
 - Bidder_purse : The uref value of the bidder purse
 - Deploy Amount: The amount we need to give for run bid event
+
+## Finalize
+Parameter you need to provide 
+- Deploy Amount: The amount we need to give for run bid event
