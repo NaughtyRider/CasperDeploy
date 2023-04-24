@@ -10,4 +10,4 @@ Parameter you need to provide
 
 ## Finalize
 Parameter you need to provide 
-- Deploy Amount: The amount we need to give for run bid event
+- Deploy Amount: The amount we need to give for run this event
