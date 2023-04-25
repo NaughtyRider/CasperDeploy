@@ -11,3 +11,8 @@ Parameter you need to provide
 ## Finalize
 Parameter you need to provide 
 - Deploy Amount: The amount we need to give for run this event
+
+## Cancle Bid
+Parameter you need to provide 
+- Deploy Amount: The amount we need to give for run bid cancle event
+
