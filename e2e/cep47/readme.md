@@ -16,3 +16,7 @@ Parameter you need to provide
 Parameter you need to provide 
 - Deploy Amount: The amount we need to give for run bid cancle event
 
+## Cancle Auction
+Parameter you need to provide 
+- Deploy Amount: The amount we need to give for run Auction cancle event
+
